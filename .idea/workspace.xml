@@ -11,11 +11,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lSnF3kUfHex1QSgJ1K2JKfihRR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
@@ -35,11 +39,27 @@
       <option name="project" value="LOCAL" />
       <updated>1607599359431</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;First Commit&quot;">
+      <created>1607599621966</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607599621966</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;First Commit&quot;">
+      <created>1607599647231</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607599647231</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;All Files Deleted&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;All Files Deleted&quot;" />
+    <MESSAGE value="&quot;First Commit&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;First Commit&quot;" />
   </component>
 </project>
