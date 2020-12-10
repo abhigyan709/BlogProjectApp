@@ -11,7 +11,8 @@
     </a>
 </h2>
 <p class="date">
-    Publised {{ post.publish }} by {{ post.author }}
+    Published {{ post.publish }} by {{ post.author }}
 </p>
 {{ post.body|truncatewords:30|linebreaks }}
 {% endfor %}
+{% endblock %}
