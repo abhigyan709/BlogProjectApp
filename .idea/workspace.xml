@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f1861bb-0e79-464f-b34c-5f0ff18e9d8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mysite/blog/static/css/blog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607718686436</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="&quot;Added css file to feel great&quot;">
+      <created>1607719239012</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1607719239012</updated>
+    </task>
+    <task id="LOCAL-00016" summary="&quot;Added css file to feel great&quot;">
+      <created>1607719268599</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607719268599</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -161,6 +175,7 @@
     <MESSAGE value="&quot;First Commit&quot;" />
     <MESSAGE value="&quot;Some advanced backend features of blog post&quot;" />
     <MESSAGE value="&quot;Till Now everything is running fine&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Till Now everything is running fine&quot;" />
+    <MESSAGE value="&quot;Added css file to feel great&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Added css file to feel great&quot;" />
   </component>
 </project>
