@@ -7,27 +7,30 @@ from .forms import EmailPostForm, CommentForm
 from django.core.mail import send_mail
 from taggit.models import Tag
 
-
 def post_list(request, tag_slug=None):
     object_list = Post.published.all()
     tag = None
 
     if tag_slug:
         tag = get_object_or_404(Tag, slug=tag_slug)
-        object_list = object_list.filter(tag__in=[tag])
-    paginator = Paginator(object_list, 3)  # 3 post in each page
+        object_list = object_list.filter(tags__in=[tag])
+
+    paginator = Paginator(object_list, 3) # 3 posts in each page
     page = request.GET.get('page')
     try:
         posts = paginator.page(page)
     except PageNotAnInteger:
+        # If page is not an integer deliver the first page
         posts = paginator.page(1)
     except EmptyPage:
+        # If page is out of range deliver last page of results
         posts = paginator.page(paginator.num_pages)
     return render(request,
-                  'blog/post/list.html',
-                  {'page': page,
-                   'posts': posts,
-                   'tag': tag})
+                 'blog/post/list.html',
+                 {'page': page,
+                  'posts': posts,
+                  'tag': tag})
+
 
 
 def post_detail(request, year, month, day, post):
