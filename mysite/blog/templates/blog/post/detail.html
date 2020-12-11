@@ -21,14 +21,20 @@
     </p>
     {{ comment.body|linebreaks }}
 </div>
-{% empty %}}
+{% empty %}
 <p>
     There are no comments yet.
 </p>
 {% endfor %}
-<p>
-   <a href="{% url "blog:post_share" post.id %}">
-    Share this post
-    </a>
-</p>
+{% if new_comment %}
+<h2>Your comment has been added</h2>
+{% else %}
+<h2>Add new comment</h2>
+<form method="post">
+    {{ comment_form.as_p }}
+    {% csrf_token %}
+    <p><input type="submit" value="Add Comment"></p>
+</form>
+{% endif %}
+<p><a href="{% url "blog:post_share" post.id %}"> Share this post</a></p>
 {% endblock %}
