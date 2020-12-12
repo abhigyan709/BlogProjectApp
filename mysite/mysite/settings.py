@@ -78,16 +78,14 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'blog',
-        'USER': 'root',
+        'USER': 'postgres',
         'PASSWORD': '1999',
         'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'PORT': '5432',
     }
 }
 # Password validation
@@ -129,9 +127,6 @@ EMAIL_HOST_USER = 'abhigyan709@gmail.com'
 EMAIL_HOST_PASSWORD = 'abhigyan7761928879'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-
-
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
