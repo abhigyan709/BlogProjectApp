@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f1861bb-0e79-464f-b34c-5f0ff18e9d8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mysite/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/blog/sitemaps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/blog/templates/blog/post/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blog/templates/blog/post/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/blog/templates/blog/post/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blog/templates/blog/post/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/blog/templatetags/blog_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blog/templatetags/blog_tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -188,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607803101946</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="&quot;Added markdown system to the post&quot;">
+      <created>1607804752043</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1607804752043</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -202,6 +208,7 @@
     <MESSAGE value="&quot;Till Now everything is running fine&quot;" />
     <MESSAGE value="&quot;Added css file to feel great&quot;" />
     <MESSAGE value="&quot;Requirements.txt file now added to lookupon virtual environment dependencies&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Requirements.txt file now added to lookupon virtual environment dependencies&quot;" />
+    <MESSAGE value="&quot;Added markdown system to the post&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Added markdown system to the post&quot;" />
   </component>
 </project>
