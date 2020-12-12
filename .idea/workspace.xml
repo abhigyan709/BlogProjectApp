@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f1861bb-0e79-464f-b34c-5f0ff18e9d8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mysite/blog/sitemaps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/blog/feeds.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blog/templates/blog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blog/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607804752043</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="&quot;Sitemaps added&quot;">
+      <created>1607805894972</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1607805894972</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -209,6 +216,7 @@
     <MESSAGE value="&quot;Added css file to feel great&quot;" />
     <MESSAGE value="&quot;Requirements.txt file now added to lookupon virtual environment dependencies&quot;" />
     <MESSAGE value="&quot;Added markdown system to the post&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Added markdown system to the post&quot;" />
+    <MESSAGE value="&quot;Sitemaps added&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Sitemaps added&quot;" />
   </component>
 </project>
