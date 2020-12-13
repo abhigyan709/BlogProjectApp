@@ -224,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607867733748</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="&quot;Blog completed with all basic features&quot;">
+      <created>1607867743473</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1607867743473</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="UnknownFeatures">
