@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f1861bb-0e79-464f-b34c-5f0ff18e9d8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/blog/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="4f1861bb-0e79-464f-b34c-5f0ff18e9d8a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -220,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607863257168</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="&quot;Blog completed with all basic features&quot;">
+      <created>1607867733748</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1607867733748</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -239,6 +243,7 @@
     <MESSAGE value="&quot;Feeds added&quot;" />
     <MESSAGE value="&quot;Data base migrated to PostgresSQL&quot;" />
     <MESSAGE value="&quot;Search Functionality successfully added&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Search Functionality successfully added&quot;" />
+    <MESSAGE value="&quot;Blog completed with all basic features&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Blog completed with all basic features&quot;" />
   </component>
 </project>
